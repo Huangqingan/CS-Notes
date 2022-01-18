@@ -241,6 +241,8 @@ System.out.println(s3 == s4);           // true
 
 如果是采用 "bbb" 这种字面量的形式创建字符串，会自动地将字符串放入 String Pool 中。
 
+//采用new string并不会进入pool中，所以s3=s1.intern（）的时候，还重新创建了一个aaa在pool中
+
 ```java
 String s5 = "bbb";
 String s6 = "bbb";
