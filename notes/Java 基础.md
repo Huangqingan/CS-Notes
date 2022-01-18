@@ -1,4 +1,4 @@
-# Java 基础
+# Java 基础HQA
 <!-- GFM-TOC -->
 * [Java 基础](#java-基础)
     * [一、数据类型](#一数据类型)
